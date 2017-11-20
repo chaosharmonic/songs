@@ -1,5 +1,4 @@
-#Prelude!
-
+#Prelude
 
 use_bpm 75
 
@@ -74,55 +73,55 @@ sleep 64
 
 live_loop :lead do
   use_synth :pulse
-  play :c5, release: 4
+  play (ring :c5, :e5), release: 4
   sleep 4
-  play :b4, release: 3
+  play (ring :b4, :d5), release: 3
   sleep 2
-  play :d5, release: 3
+  play (ring :d5, :f5), release: 3
   sleep 2
-  play :c5, release: 8
+  play (ring :c5, :e5), release: 8
   sleep 8
-  play :c5, release: 4
+  play (ring :c5, :e5), release: 4
   sleep 4
-  play :b4, release: 3
+  play (ring :b4, :d5), release: 3
   sleep 2
-  play :d5, release: 3
+  play (ring :d5, :f5), release: 3
   sleep 2
-  play :d5, release: 1
+  play (ring :d5, :f5), release: 1
   sleep 0.5
-  play :e5, release: 1
+  play (ring :e5, :g5), release: 1
   sleep 0.5
-  play :c5, release: 7
+  play (ring :c5, :e5), release: 7
   sleep 7
-  play :a4, release: 4
+  play (ring :a4, :c5), release: 4
   sleep 4
-  play :g4, release: 3
+  play (ring :g4, :b4), release: 3
   sleep 2
-  play :a4, release: 3
+  play (ring :a4, :c5), release: 3
   sleep 2
-  play :b4, release: 3
+  play (ring :b4, :d5), release: 3
   sleep 3
-  play :c5, release: 2
+  play (ring :c5, :e5), release: 2
   sleep 1
-  play :d5, release: 3
+  play (ring :d5, :f5), release: 3
   sleep 2
-  play :g5, release: 3
+  play (ring :b4, :g5), release: 3
   sleep 2
-  play :f5, release: 2
+  play (ring :d5, :f5), release: 2
   sleep 1
-  play :eb5, release: 1
+  play (ring :c5, :eb5), release: 1
   sleep 0.5
-  play :d5, release: 1
+  play (ring :bb4, :d5), release: 1
   sleep 0.5
-  play :c5, release: 6
+  play (ring :ab4, :c5), release: 6
   sleep 6
-  play :g5, release: 2
+  play (ring :eb5, :g5), release: 2
   sleep 1
-  play :f5, release: 1
+  play (ring :d5, :f5), release: 1
   sleep 0.5
-  play :eb5, release: 1
+  play (ring :c5, :eb5), release: 1
   sleep 0.5
-  play :d5, release: 6
+  play (ring :bb4, :d5), release: 6
   sleep 6
   sleep 64
 end
